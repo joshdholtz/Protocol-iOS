@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032C2B2117611B310046F2FE /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C2B2017611B310046F2FE /* UserModel.m */; };
 		037213F8174AD88F009B7913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037213F7174AD88F009B7913 /* UIKit.framework */; };
 		037213FA174AD88F009B7913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037213F9174AD88F009B7913 /* Foundation.framework */; };
 		037213FC174AD88F009B7913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037213FB174AD88F009B7913 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032C2B1F17611B310046F2FE /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		032C2B2017611B310046F2FE /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		037213F4174AD88F009B7913 /* Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037213F7174AD88F009B7913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		037213F9174AD88F009B7913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +128,8 @@
 		0372141E174AD96F009B7913 /* ExampleModels */ = {
 			isa = PBXGroup;
 			children = (
+				032C2B1F17611B310046F2FE /* UserModel.h */,
+				032C2B2017611B310046F2FE /* UserModel.m */,
 			);
 			name = ExampleModels;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				03721408174AD88F009B7913 /* AppDelegate.m in Sources */,
 				03721411174AD88F009B7913 /* ViewController.m in Sources */,
 				0372141D174AD8D9009B7913 /* ProtocolModel.m in Sources */,
+				032C2B2117611B310046F2FE /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +327,7 @@
 				03721419174AD88F009B7913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

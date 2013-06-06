@@ -67,7 +67,6 @@ static ProtocolModel *sharedInstance = nil;
 }
 
 + (id)protocolModelWithDictionary:(NSDictionary*)dict {
-    NSLog(@"Class  %@",[self class]);
     return [[[self class] alloc] initWithDictionary:dict];
 }
 
